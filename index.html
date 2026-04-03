@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Control</title>
+
+<script>
+const accepted = localStorage.getItem("accepted");
+
+if (accepted) {
+    window.location.replace("https://www.google.com");
+} else {
+    window.location.replace("bloqueo.html");
+}
+</script>
+
+</head>
+<body></body>
+</html>

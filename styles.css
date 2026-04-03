@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    background: red;
+    color: white;
+    font-family: Arial;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
