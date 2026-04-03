@@ -1,0 +1,7 @@
+{
+  "warning": "<h2>Normas de Uso</h2><p>1. Está prohibido visitar sitios pornográficos.</p><p>2. No instalar software no autorizado.</p><p>3. El uso es exclusivo para fines laborales.</p>",
+  "news": [
+    { "title": "Mantenimiento", "text": "El viernes a las 18:00 habrá un reinicio del servidor." },
+    { "title": "Nueva Política", "text": "A partir de mañana se activará el doble factor." }
+  ]
+}
