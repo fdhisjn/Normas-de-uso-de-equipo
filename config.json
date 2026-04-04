@@ -1,6 +1,37 @@
 {
-  "version": 1,
-  "warning": "<p>Uso exclusivo educativo. Toda actividad será monitorizada.</p>",
-  "news": "<ul><li>Exámenes la próxima semana</li><li>Actualización de normas</li></ul>",
-  "expiration_hours": 24
+  "version": "1.1.0",
+  "system_notice": {
+    "title": "Protocolo de Uso Institucional",
+    "warning": "El acceso a esta plataforma está estrictamente reservado a fines académicos. Conforme a la Ley de Protección de Datos y las políticas internas del centro, toda actividad dentro del sistema es registrada y auditada para garantizar la seguridad de la comunidad educativa.",
+    "footer": "El uso indebido de las credenciales o la plataforma conllevará medidas disciplinarias según el Reglamento de Régimen Interno (RRI)."
+  },
+  "news_feed": {
+    "last_update": "2026-04-04",
+    "announcements": [
+      {
+        "priority": "high",
+        "content": "Periodo de evaluaciones trimestrales: Consultar el calendario oficial en la secretaría virtual."
+      },
+      {
+        "priority": "medium",
+        "content": "Publicación del nuevo Manual de Estilo y Convivencia Digital en el tablón de anuncios."
+      },
+      {
+        "priority": "low",
+        "content": "Mantenimiento preventivo del servidor: Sábado de 22:00 a 02:00."
+      }
+    ]
+  },
+  "usage_policy": {
+    "rules": [
+      "Prohibido el uso de la red para fines no pedagógicos o de ocio no autorizado.",
+      "Es obligatorio cerrar la sesión al finalizar el uso del terminal.",
+      "Queda terminantemente prohibida la difusión de contenidos que vulneren la privacidad o dignidad de terceros.",
+      "El usuario es responsable exclusivo de la custodia de sus credenciales de acceso."
+    ]
+  },
+  "session_control": {
+    "expiration_hours": 24,
+    "idle_timeout_minutes": 30
+  }
 }
